@@ -1,0 +1,62 @@
+export const INDUSTRIAS = [
+  'Technology',
+  'Health & Medicine',
+  'Education',
+  'Retail / Commerce',
+  'Manufacturing',
+  'Financial Services',
+  'Construction',
+  'Tourism & Hospitality',
+  'Food & Beverage',
+  'Media & Entertainment',
+  'Logistics & Transportation',
+  'Real Estate',
+  'Consulting',
+  'Marketing & Advertising',
+  'Legal Services',
+  'Staffing & Recruitment',
+  'Fundraising & Nonprofit',
+  'Security & Protection',
+  'Precious Metals & Commodities',
+  'Other',
+]
+
+export const PRESUPUESTOS = [
+  'Less than $1,000',
+  '$1,000 - $5,000',
+  '$5,000 - $10,000',
+  '$10,000 - $25,000',
+  '$25,000 - $50,000',
+  'More than $50,000',
+]
+
+export const TAMANOS = [
+  '1-10 employees',
+  '11-50 employees',
+  '51-200 employees',
+  '201-500 employees',
+  '500+ employees',
+]
+
+export const BADGE_COLORS = {
+  'Technology': 'bg-blue-100 text-blue-800',
+  'Health & Medicine': 'bg-green-100 text-green-800',
+  'Education': 'bg-yellow-100 text-yellow-800',
+  'Retail / Commerce': 'bg-pink-100 text-pink-800',
+  'Manufacturing': 'bg-orange-100 text-orange-800',
+  'Financial Services': 'bg-emerald-100 text-emerald-800',
+  'Construction': 'bg-stone-100 text-stone-800',
+  'Tourism & Hospitality': 'bg-cyan-100 text-cyan-800',
+  'Food & Beverage': 'bg-lime-100 text-lime-800',
+  'Media & Entertainment': 'bg-purple-100 text-purple-800',
+  'Logistics & Transportation': 'bg-indigo-100 text-indigo-800',
+  'Real Estate': 'bg-amber-100 text-amber-800',
+  'Consulting': 'bg-sky-100 text-sky-800',
+  'Marketing & Advertising': 'bg-rose-100 text-rose-800',
+  'Legal Services': 'bg-violet-100 text-violet-800',
+  'Staffing & Recruitment': 'bg-teal-100 text-teal-800',
+  'Fundraising & Nonprofit': 'bg-green-100 text-green-800',
+  'Security & Protection': 'bg-slate-200 text-slate-900',
+  'Precious Metals & Commodities': 'bg-yellow-100 text-yellow-800',
+  'Other': 'bg-slate-100 text-slate-800',
+}
