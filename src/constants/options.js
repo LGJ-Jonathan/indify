@@ -18,6 +18,7 @@ export const INDUSTRIAS = [
   'Fundraising & Nonprofit',
   'Security & Protection',
   'Precious Metals & Commodities',
+  'Insurance & Benefits',
   'Other',
 ]
 
@@ -58,5 +59,6 @@ export const BADGE_COLORS = {
   'Fundraising & Nonprofit': 'bg-green-100 text-green-800',
   'Security & Protection': 'bg-slate-200 text-slate-900',
   'Precious Metals & Commodities': 'bg-yellow-100 text-yellow-800',
+  'Insurance & Benefits': 'bg-blue-100 text-blue-800',
   'Other': 'bg-slate-100 text-slate-800',
 }
