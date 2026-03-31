@@ -44,7 +44,12 @@ export function useClients() {
       .eq('id', id)
       .select()
       .single()
-    if (!error && updated) {
+    if (error) {
+      console.error('Update error:', error)
+      alert('Error saving changes: ' + error.message)
+      return
+    }
+    if (updated) {
       setClients(prev => prev.map(c => c.id === id ? updated : c))
     }
   }
